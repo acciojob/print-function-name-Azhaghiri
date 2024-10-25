@@ -1,5 +1,6 @@
-//your JS code here. If required. 
-function AccioJob(){
-	alert(AccioJob.name)
-} 
+const AccioJob = function (numItems) {
+  alert(arguments.callee.name);
+  // Your code here
+};
+
 AccioJob(5);
